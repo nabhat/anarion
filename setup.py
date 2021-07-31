@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-classifiers=[
+classifiers = [
     'Development Status :: 5 - Production/Stable',
     'Operating System :: OS Independent',
     'License :: OSI Approved :: MIT License',
@@ -12,12 +12,12 @@ setup(
     version='0.0.2',
     description='Stock Analysis',
     long_description=open('README.txt').read()+'\n\n'+open('CHANGELOG.txt').read(),
-    url='',
+    url='https://github.com/nabhat/anarion',
     author='nabhat',
     author_email='angman507@gmail.com',
     license='MIT',
     classifiers=classifiers,
-    keywords='lothlorien',
+    keywords='anarion',
     packages=find_packages(),
-    install_requires=['']
+    install_requires=['numpy', 'pandas']
 )

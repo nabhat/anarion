@@ -1,2 +1,1 @@
-This is a veru calculater which adds, subtracts , divides
-and multiplies the givrn twi values
+This is a stock analysing library. It has various type of technical and fundamental indicators.
